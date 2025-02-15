@@ -1,9 +1,11 @@
 <template>
   <div class="about">
-    <h1>
-      The Progressive JavaScript Framework. Approachable. Builds on top of standard HTML, CSS and
-      JavaScript with intuitive API and world-class documentation.
-    </h1>
+    <h1>Nuestra historia</h1>
+    <h5>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea repellat tempore deleniti eius
+      architecto. Odio reiciendis quod voluptate, voluptatum unde consequatur perferendis cupiditate
+      odit eos, vero ducimus corrupti corporis quae.
+    </h5>
   </div>
 </template>
 
@@ -12,6 +14,7 @@
   .about {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 }
