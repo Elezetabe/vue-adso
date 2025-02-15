@@ -1,7 +1,6 @@
 <template>
-  <div class="projects">
-    <img src="/img/open.png" alt="" />
-    <input type="button" value="Participate" />
+  <div class="login">
+    <h1>Gringos motherfuckers!</h1>
   </div>
 </template>
 
