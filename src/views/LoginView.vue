@@ -1,6 +1,7 @@
 <template>
-  <div class="login">
-    <h1>¡Bienvenido!</h1>
+    <div ref="el"></div>
+    <div class="login">
+    <h1>¡Iniciar sesión!</h1>
     <h4>Correo Electrónico</h4>
     <input type="email" name="E-mail" id="email" />
     <h4>Contraseña</h4>
@@ -16,11 +17,9 @@
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
+  .login {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    background-color: red;
   }
-}
 </style>
